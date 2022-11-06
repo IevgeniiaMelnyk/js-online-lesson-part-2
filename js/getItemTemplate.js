@@ -1,5 +1,4 @@
-
-export const Item = ({ isDone, text }) => `<li class="item">
+export const getItemTemplate = ({ isDone, text }) => `<li class="item">
   <div>
     <input
       type="checkbox"
